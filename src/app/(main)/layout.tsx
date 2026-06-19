@@ -17,7 +17,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`h-full antialiased`}>
-      <head></head>
       <body>
         <TopBar />
         <div className="flex h-full">
