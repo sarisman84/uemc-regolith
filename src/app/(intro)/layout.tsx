@@ -18,11 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`h-full antialiased`}>
       <body>
-        <TopBar />
-        <div className="flex h-full">
-          <SideBar />
-          <main>{children}</main>
-        </div>
+        <main>{children}</main>
       </body>
     </html>
   );
