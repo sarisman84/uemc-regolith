@@ -20,12 +20,12 @@
   --font-body: "Saira Semi Condensed", sans-serif;
 
   /* UEMC organizational rank colors (org chart) used for role-tinted surfaces such as Members directory cards */
-  --rank-board-member-rgb: 0, 112, 192;
-  --rank-senior-manager-rgb: 0, 176, 155;
-  --rank-manager-rgb: 0, 176, 80;
-  --rank-foreman-rgb: 255, 255, 0;
-  --rank-specialist-rgb: 247, 150, 70;
-  --rank-employee-rgb: 192, 0, 0;
-  --rank-contractor-rgb: 255, 0, 102;
-  --rank-ambassador-rgb: 112, 48, 160;
+  --rank-board-member-rgb: oklab(53.607000000000006% -0.05225 -0.1411);
+  --rank-senior-manager-rgb: oklab(67.85600000000001% -0.12292 -0.00059);
+  --rank-manager-rgb: oklab(66.168% -0.15821 0.09192);
+  --rank-foreman-rgb: oklab(96.798% -0.07139 0.19849);
+  --rank-specialist-rgb: oklab(76.021% 0.08108 0.12519);
+  --rank-employee-rgb: oklab(50.724000000000004% 0.18166 0.10162);
+  --rank-contractor-rgb: oklab(63.873000000000005% 0.25114 0.04651);
+  --rank-ambassador-rgb: oklab(45.391% 0.10479 -0.13977);
 }
