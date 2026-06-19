@@ -1,3 +1,31 @@
 @import "tailwindcss";
-@import "style/themes/default.css";
 
+:root {
+  --bg-color: oklab(15.512999999999998% 0.00065 -0.00868);
+  --bg-secondary: oklab(27.327% -0.00678 -0.02322);
+  --text-primary: oklab(82.606% -0.00067 -0.00175);
+  --text-highlight: oklab(100% 0 -0.00011);
+  --accent-color: oklab(90.8% -0.12684 -0.01888);
+  /* Cyan/Teal for high tech feel, or maybe stick to Red from logo? */
+  --accent-secondary: oklab(65.572% -0.08603 -0.01735);
+
+  /* Based on uemc logo */
+  --brand-red: oklab(54.568000000000005% 0.17429 0.08728);
+  --brand-dark-red: oklab(39.983999999999995% 0.1432 0.08011);
+  --brand-blue-dark: oklab(38.419% -0.00949 -0.06783);
+
+  --glass-bg: oklab(27.327% -0.00678 -0.02322 / 0.7);
+  --glass-border: oklab(100% 0 -0.00011 / 0.1);
+  --font-heading: "Oxanium", sans-serif;
+  --font-body: "Saira Semi Condensed", sans-serif;
+
+  /* UEMC organizational rank colors (org chart) used for role-tinted surfaces such as Members directory cards */
+  --rank-board-member-rgb: 0, 112, 192;
+  --rank-senior-manager-rgb: 0, 176, 155;
+  --rank-manager-rgb: 0, 176, 80;
+  --rank-foreman-rgb: 255, 255, 0;
+  --rank-specialist-rgb: 247, 150, 70;
+  --rank-employee-rgb: 192, 0, 0;
+  --rank-contractor-rgb: 255, 0, 102;
+  --rank-ambassador-rgb: 112, 48, 160;
+}
