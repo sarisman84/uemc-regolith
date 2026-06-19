@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Link from "next/dist/client/link";
+import "@/app/globals.css";
 import { TopBar } from "@/components/layout/top-bar";
-import { SideBar } from "@/components/layout/side-bar";
 
 export const metadata: Metadata = {
   title: "Bexalite",
@@ -20,7 +17,6 @@ export default function RootLayout({
       <body>
         <TopBar />
         <div className="flex h-full">
-          <SideBar />
           <main>{children}</main>
         </div>
       </body>
